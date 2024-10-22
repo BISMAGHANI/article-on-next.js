@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React.js and Next.js Overview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>React.js and Next.js: Overview and Comparison</h1>
+
+            <img src="download.png" alt="React and Next.js logos" class="tech-logo">
+        </header>
+        
+        <section>
+            <h2>What is React.js?</h2>
+            <p>React.js is a component-based library for building user interfaces, typically used for single-page applications (SPAs). It allows developers to build reusable UI components and handles the view layer of web apps.</p>
+
+            <h3>Key Features:</h3>
+            <ul>
+                <li><strong>Component-based architecture:</strong> Reusable components.</li>
+                <li><strong>Virtual DOM:</strong> Efficient rendering of changes.</li>
+                <li><strong>JSX:</strong> HTML-like syntax for creating components.</li>
+            </ul>
+
+            <h3>Example:</h3>
+            <pre><code>
+import React from 'react';
+
+function HelloWorld() {
+  return &lt;h1&gt;Hello, React World!&lt;/h1&gt;;
+}
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>What is Next.js?</h2>
+            <p>Next.js is a React framework that adds features like server-side rendering, static site generation, and file-based routing. It simplifies development with built-in performance optimizations and automatic routing.</p>
+
+            <h3>Key Features:</h3>
+            <ul>
+                <li><strong>SSR & SSG:</strong> Improves SEO and page load times.</li>
+                <li><strong>File-based routing:</strong> No need for extra routing libraries.</li>
+                <li><strong>API routes:</strong> Build APIs within the same project.</li>
+            </ul>
+
+            <h3>Example:</h3>
+            <pre><code>
+// pages/index.js
+export default function Home() {
+  return &lt;h1&gt;Welcome to Next.js!&lt;/h1&gt;;
+}
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Key Differences Between React.js and Next.js</h2>
+            <ul>
+                <li><strong>Rendering:</strong> React is primarily client-side, while Next.js supports SSR/SSG out of the box.</li>
+                <li><strong>Routing:</strong> React requires react-router, while Next.js uses automatic file-based routing.</li>
+                <li><strong>SEO:</strong> Next.js excels in SEO due to SSR, whereas React is less SEO-friendly by default.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Getting Started with React.js</h2>
+            <p><strong>Install React using create-react-app:</strong></p>
+            <pre><code>npx create-react-app my-app
+cd my-app
+npm start
+            </code></pre>
+
+            <h3>Build components:</h3>
+            <pre><code>
+function App() {
+  return &lt;h1&gt;Hello, React!&lt;/h1&gt;;
+}
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Getting Started with Next.js</h2>
+            <p><strong>Install Next.js using create-next-app:</strong></p>
+            <pre><code>npx create-next-app my-next-app
+cd my-next-app
+npm run dev
+            </code></pre>
+
+            <h3>Create a new page:</h3>
+            <pre><code>
+export default function About() {
+  return &lt;h1&gt;About Us&lt;/h1&gt;;
+}
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>React.js is great for building SPAs, offering flexibility and control. Next.js is ideal for building SEO-optimized, production-grade web applications with SSR, SSG, and simpler routing.</p>
+        </section>
+    </div>
+</body>
+</html>

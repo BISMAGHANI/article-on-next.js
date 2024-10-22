@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #181214; /* Strong black background */
+    color: #fff; /* White text for high contrast */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000; /* Dark grey container for contrast */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(124, 114, 120, 0.2); /* Slightly brighter shadow for depth */
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #1f1d1d; /* Dark grey border for header */
+}
+
+/* Image Styling */
+.tech-logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(119, 105, 112, 0.3); /* Bright shadow for logo */
+}
+
+h1 {
+    color: #c0bdba; /* Bright yellow for main heading */
+}
+
+h2, h3 {
+    color: #aa9494; /* Light grey for subheadings */
+}
+
+ul {
+    margin: 10px 0;
+    padding: 0 20px;
+    list-style: disc;
+}
+
+ul li {
+    color: #d1c0c0; /* Light grey for list items */
+}
+
+pre {
+    background-color: #1b1a1a; /* Dark background for code blocks */
+    padding: 10px;
+    border-left: 4px solid #333026; /* Bright yellow border for code blocks */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre code {
+    color: #ddd4cf; /* Bright green for code text */
+    font-family: Consolas, "Courier New", monospace;
+}
+
+p, li {
+    color: #bbb; /* Light grey for general text */
+}
+
+section {
+    margin-bottom: 30px;
+}
